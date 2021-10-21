@@ -1,11 +1,13 @@
 #include <stdio.h>
-void sum();
-void main()
+
+void sum();//function declaration .....
+void main()// the main function
 {
     printf("\n Going to clacualte the sum of two number \n");
     sum();
 }
 
+//function definotion
 void sum()
 {
     int a,b;
